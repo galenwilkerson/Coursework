@@ -1,0 +1,8 @@
+ATTACH DATABASE 'reuters.db' as 'reuters';
+--DROP TABLE reuters.Frequency2;
+--CREATE TABLE Frequency3(docid text, term text, count int);
+
+--insert into Frequency3
+--select * from Frequency;
+--.tables
+select * from Frequency;

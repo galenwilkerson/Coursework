@@ -1,0 +1,43 @@
+ATTACH DATABASE 'reuters.db' as 'reuters';
+/*
+SELECT value FROM (
+SELECT Frequency.docid AS docid1, Frequency3.docid AS docid2, SUM(Frequency.count * Frequency3.count) as value
+FROM Frequency, Frequency3
+WHERE Frequency.term = Frequency3.term
+GROUP BY Frequency.docid, Frequency3.docid
+)WHERE docid1 = "10080_txt_crude" and docid2 = "17035_txt_earn"
+;
+*/
+
+/*
+CREATE VIEW query_view AS 
+SELECT * FROM frequency
+UNION
+SELECT 'q' as docid, 'washington' as term, 1 as count 
+UNION
+SELECT 'q' as docid, 'taxes' as term, 1 as count
+UNION 
+SELECT 'q' as docid, 'treasury' as term, 1 as count
+;
+*/
+
+SELECT docid2, max(value)
+FROM (
+SELECT * FROM (
+SELECT query_view.docid AS docid1, Frequency3.docid AS docid2, SUM(query_view.count * Frequency3.count) as value
+FROM query_view, Frequency3
+WHERE query_view.term = Frequency3.term
+GROUP BY query_view.docid, Frequency3.docid)
+WHERE docid1 = "q"
+)
+GROUP BY docid2
+HAVING MAX(value)
+;
+
+/*
+SELECT department, max(salary) AS "Highest salary"
+FROM employees
+WHERE favorite_website = "TechOnTheNet.com"
+GROUP BY department
+HAVING MAX(salary) >= 30000;
+*/

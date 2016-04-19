@@ -1,0 +1,4 @@
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+nm-applet-Message: PID 5635 (we are 5635) sent signal 15, shutting down...
+
+(nm-applet:5635): libappindicator-WARNING **: Unable to send signal for NewStatus: The connection is closed

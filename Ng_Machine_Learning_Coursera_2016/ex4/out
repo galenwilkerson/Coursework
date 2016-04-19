@@ -1,0 +1,214 @@
+Loading and Visualizing Data ...
+
+Loading Saved Neural Network Parameters ...
+
+Feedforward Using Neural Network ...
+Cost at parameters (loaded from ex4weights): 0.287629 
+(this value should be about 0.287629)
+
+Program paused. Press enter to continue.
+
+Checking Cost Function (w/ Regularization) ... 
+Cost at parameters (loaded from ex4weights): 0.383770 
+(this value should be about 0.383770)
+Program paused. Press enter to continue.
+
+Evaluating sigmoid gradient...
+Sigmoid gradient evaluated at [1 -0.5 0 0.5 1]:
+  0.196612 0.235004 0.250000 0.235004 0.196612 
+
+Program paused. Press enter to continue.
+
+Initializing Neural Network Parameters ...
+
+Checking Backpropagation... 
+  -9.2783e-03  -9.2783e-03
+   8.8991e-03   8.8991e-03
+  -8.3601e-03  -8.3601e-03
+   7.6281e-03   7.6281e-03
+  -6.7480e-03  -6.7480e-03
+  -3.0498e-06  -3.0498e-06
+   1.4287e-05   1.4287e-05
+  -2.5938e-05  -2.5938e-05
+   3.6988e-05   3.6988e-05
+  -4.6876e-05  -4.6876e-05
+  -1.7506e-04  -1.7506e-04
+   2.3315e-04   2.3315e-04
+  -2.8747e-04  -2.8747e-04
+   3.3532e-04   3.3532e-04
+  -3.7622e-04  -3.7622e-04
+  -9.6266e-05  -9.6266e-05
+   1.1798e-04   1.1798e-04
+  -1.3715e-04  -1.3715e-04
+   1.5325e-04   1.5325e-04
+  -1.6656e-04  -1.6656e-04
+   3.1454e-01   3.1454e-01
+   1.1106e-01   1.1106e-01
+   9.7401e-02   9.7401e-02
+   1.6409e-01   1.6409e-01
+   5.7574e-02   5.7574e-02
+   5.0458e-02   5.0458e-02
+   1.6457e-01   1.6457e-01
+   5.7787e-02   5.7787e-02
+   5.0753e-02   5.0753e-02
+   1.5834e-01   1.5834e-01
+   5.5924e-02   5.5924e-02
+   4.9162e-02   4.9162e-02
+   1.5113e-01   1.5113e-01
+   5.3697e-02   5.3697e-02
+   4.7146e-02   4.7146e-02
+   1.4957e-01   1.4957e-01
+   5.3154e-02   5.3154e-02
+   4.6560e-02   4.6560e-02
+The above two columns you get should be very similar.
+(Left-Your Numerical Gradient, Right-Analytical Gradient)
+
+If your backpropagation implementation is correct, then 
+the relative difference will be small (less than 1e-9). 
+
+Relative Difference: 2.47666e-11
+
+Program paused. Press enter to continue.
+
+Checking Backpropagation (w/ Regularization) ... 
+  -9.2783e-03  -9.2783e-03
+   8.8991e-03   8.8991e-03
+  -8.3601e-03  -8.3601e-03
+   7.6281e-03   7.6281e-03
+  -6.7480e-03  -6.7480e-03
+  -1.6768e-02  -1.6768e-02
+   3.9433e-02   3.9433e-02
+   5.9336e-02   5.9336e-02
+   2.4764e-02   2.4764e-02
+  -3.2688e-02  -3.2688e-02
+  -6.0174e-02  -6.0174e-02
+  -3.1961e-02  -3.1961e-02
+   2.4923e-02   2.4923e-02
+   5.9772e-02   5.9772e-02
+   3.8641e-02   3.8641e-02
+  -1.7370e-02  -1.7370e-02
+  -5.7566e-02  -5.7566e-02
+  -4.5196e-02  -4.5196e-02
+   9.1459e-03   9.1459e-03
+   5.4610e-02   5.4610e-02
+   3.1454e-01   3.1454e-01
+   1.1106e-01   1.1106e-01
+   9.7401e-02   9.7401e-02
+   1.1868e-01   1.1868e-01
+   3.8193e-05   3.8193e-05
+   3.3693e-02   3.3693e-02
+   2.0399e-01   2.0399e-01
+   1.1715e-01   1.1715e-01
+   7.5480e-02   7.5480e-02
+   1.2570e-01   1.2570e-01
+  -4.0759e-03  -4.0759e-03
+   1.6968e-02   1.6968e-02
+   1.7634e-01   1.7634e-01
+   1.1313e-01   1.1313e-01
+   8.6163e-02   8.6163e-02
+   1.3229e-01   1.3229e-01
+  -4.5296e-03  -4.5296e-03
+   1.5005e-03   1.5005e-03
+The above two columns you get should be very similar.
+(Left-Your Numerical Gradient, Right-Analytical Gradient)
+
+If your backpropagation implementation is correct, then 
+the relative difference will be small (less than 1e-9). 
+
+Relative Difference: 2.35873e-11
+
+
+Cost at (fixed) debugging parameters (w/ lambda = 10): 0.576051 
+(this value should be about 0.576051)
+
+Program paused. Press enter to continue.
+
+Training Neural Network... 
+maxiter_range =
+
+   25   35   45   55
+
+lambda_range =
+
+    0    2    4    6    8   10
+
+maxiter_val =  25
+lambda_val = 0
+Iteration     1 | Cost: 3.291585e+00Iteration     2 | Cost: 3.253355e+00Iteration     3 | Cost: 3.199505e+00Iteration     4 | Cost: 3.116147e+00Iteration     5 | Cost: 2.906841e+00Iteration     6 | Cost: 2.435283e+00Iteration     7 | Cost: 1.953759e+00Iteration     8 | Cost: 1.862595e+00Iteration     9 | Cost: 1.714679e+00Iteration    10 | Cost: 1.588548e+00Iteration    11 | Cost: 1.508882e+00Iteration    12 | Cost: 1.451202e+00Iteration    13 | Cost: 1.148258e+00Iteration    14 | Cost: 1.061134e+00Iteration    15 | Cost: 1.006639e+00Iteration    16 | Cost: 9.345848e-01Iteration    17 | Cost: 8.967454e-01Iteration    18 | Cost: 8.809491e-01Iteration    19 | Cost: 8.365269e-01Iteration    20 | Cost: 8.106287e-01Iteration    21 | Cost: 7.868916e-01Iteration    22 | Cost: 6.977318e-01Iteration    23 | Cost: 6.630252e-01Iteration    24 | Cost: 6.456512e-01Iteration    25 | Cost: 6.079224e-01
+maxiter_val =  25
+lambda_val =  2
+Iteration     1 | Cost: 3.302168e+00Iteration     2 | Cost: 3.263819e+00Iteration     3 | Cost: 3.210529e+00Iteration     4 | Cost: 3.129005e+00Iteration     5 | Cost: 2.925175e+00Iteration     6 | Cost: 2.468323e+00Iteration     7 | Cost: 2.004478e+00Iteration     8 | Cost: 1.915890e+00Iteration     9 | Cost: 1.771772e+00Iteration    10 | Cost: 1.657892e+00Iteration    11 | Cost: 1.546522e+00Iteration    12 | Cost: 1.399457e+00Iteration    13 | Cost: 1.317919e+00Iteration    14 | Cost: 1.274921e+00Iteration    15 | Cost: 1.179499e+00Iteration    16 | Cost: 1.099018e+00Iteration    17 | Cost: 1.014403e+00Iteration    18 | Cost: 9.098277e-01Iteration    19 | Cost: 8.741945e-01Iteration    20 | Cost: 8.538013e-01Iteration    21 | Cost: 8.256509e-01Iteration    22 | Cost: 8.153037e-01Iteration    23 | Cost: 8.139105e-01Iteration    24 | Cost: 7.948528e-01Iteration    25 | Cost: 7.863719e-01
+maxiter_val =  25
+lambda_val =  4
+Iteration     1 | Cost: 3.312741e+00Iteration     2 | Cost: 3.274262e+00Iteration     3 | Cost: 3.221372e+00Iteration     4 | Cost: 3.141708e+00Iteration     5 | Cost: 2.941157e+00Iteration     6 | Cost: 2.496271e+00Iteration     7 | Cost: 2.048651e+00Iteration     8 | Cost: 1.960829e+00Iteration     9 | Cost: 1.819352e+00Iteration    10 | Cost: 1.704428e+00Iteration    11 | Cost: 1.597480e+00Iteration    12 | Cost: 1.458378e+00Iteration    13 | Cost: 1.379058e+00Iteration    14 | Cost: 1.339405e+00Iteration    15 | Cost: 1.286174e+00Iteration    16 | Cost: 1.251233e+00Iteration    17 | Cost: 1.224989e+00Iteration    18 | Cost: 1.147496e+00Iteration    19 | Cost: 1.072854e+00Iteration    20 | Cost: 1.024312e+00Iteration    21 | Cost: 9.649734e-01Iteration    22 | Cost: 9.495212e-01Iteration    23 | Cost: 9.368938e-01Iteration    24 | Cost: 9.138432e-01Iteration    25 | Cost: 8.998764e-01
+maxiter_val =  25
+lambda_val =  6
+Iteration     1 | Cost: 3.323302e+00Iteration     2 | Cost: 3.284684e+00Iteration     3 | Cost: 3.232039e+00Iteration     4 | Cost: 3.154231e+00Iteration     5 | Cost: 2.955078e+00Iteration     6 | Cost: 2.520156e+00Iteration     7 | Cost: 2.087429e+00Iteration     8 | Cost: 1.999502e+00Iteration     9 | Cost: 1.860028e+00Iteration    10 | Cost: 1.735698e+00Iteration    11 | Cost: 1.670381e+00Iteration    12 | Cost: 1.631733e+00Iteration    13 | Cost: 1.465731e+00Iteration    14 | Cost: 1.424129e+00Iteration    15 | Cost: 1.406929e+00Iteration    16 | Cost: 1.337458e+00Iteration    17 | Cost: 1.280498e+00Iteration    18 | Cost: 1.204489e+00Iteration    19 | Cost: 1.157821e+00Iteration    20 | Cost: 1.126356e+00Iteration    21 | Cost: 1.088352e+00Iteration    22 | Cost: 1.074095e+00Iteration    23 | Cost: 1.066471e+00Iteration    24 | Cost: 1.039583e+00Iteration    25 | Cost: 1.023822e+00
+maxiter_val =  25
+lambda_val =  8
+Iteration     1 | Cost: 3.333853e+00Iteration     2 | Cost: 3.295084e+00Iteration     3 | Cost: 3.242531e+00Iteration     4 | Cost: 3.166551e+00Iteration     5 | Cost: 2.967184e+00Iteration     6 | Cost: 2.541549e+00Iteration     7 | Cost: 2.126940e+00Iteration     8 | Cost: 2.039002e+00Iteration     9 | Cost: 1.901589e+00Iteration    10 | Cost: 1.771866e+00Iteration    11 | Cost: 1.708048e+00Iteration    12 | Cost: 1.560486e+00Iteration    13 | Cost: 1.472426e+00Iteration    14 | Cost: 1.438231e+00Iteration    15 | Cost: 1.364725e+00Iteration    16 | Cost: 1.327600e+00Iteration    17 | Cost: 1.282332e+00Iteration    18 | Cost: 1.258107e+00Iteration    19 | Cost: 1.230131e+00Iteration    20 | Cost: 1.197051e+00Iteration    21 | Cost: 1.181717e+00Iteration    22 | Cost: 1.178464e+00Iteration    23 | Cost: 1.153557e+00Iteration    24 | Cost: 1.141268e+00Iteration    25 | Cost: 1.130597e+00
+maxiter_val =  25
+lambda_val =  10
+Iteration     1 | Cost: 3.344392e+00Iteration     2 | Cost: 3.305462e+00Iteration     3 | Cost: 3.252853e+00Iteration     4 | Cost: 3.195402e+00Iteration     5 | Cost: 2.643439e+00Iteration     6 | Cost: 2.303994e+00Iteration     7 | Cost: 2.059731e+00Iteration     8 | Cost: 1.934863e+00Iteration     9 | Cost: 1.798180e+00Iteration    10 | Cost: 1.749772e+00Iteration    11 | Cost: 1.631326e+00Iteration    12 | Cost: 1.572745e+00Iteration    13 | Cost: 1.543070e+00Iteration    14 | Cost: 1.519946e+00Iteration    15 | Cost: 1.441173e+00Iteration    16 | Cost: 1.420230e+00Iteration    17 | Cost: 1.398835e+00Iteration    18 | Cost: 1.327883e+00Iteration    19 | Cost: 1.294655e+00Iteration    20 | Cost: 1.259019e+00Iteration    21 | Cost: 1.234476e+00Iteration    22 | Cost: 1.212506e+00Iteration    23 | Cost: 1.191671e+00Iteration    24 | Cost: 1.181686e+00Iteration    25 | Cost: 1.171109e+00
+maxiter_val =  35
+lambda_val = 0
+Iteration     1 | Cost: 3.291585e+00Iteration     2 | Cost: 3.253355e+00Iteration     3 | Cost: 3.199505e+00Iteration     4 | Cost: 3.116147e+00Iteration     5 | Cost: 2.906841e+00Iteration     6 | Cost: 2.435283e+00Iteration     7 | Cost: 1.953759e+00Iteration     8 | Cost: 1.862595e+00Iteration     9 | Cost: 1.714679e+00Iteration    10 | Cost: 1.588548e+00Iteration    11 | Cost: 1.508882e+00Iteration    12 | Cost: 1.451202e+00Iteration    13 | Cost: 1.148258e+00Iteration    14 | Cost: 1.061134e+00Iteration    15 | Cost: 1.006639e+00Iteration    16 | Cost: 9.345848e-01Iteration    17 | Cost: 8.967454e-01Iteration    18 | Cost: 8.809491e-01Iteration    19 | Cost: 8.365269e-01Iteration    20 | Cost: 8.106287e-01Iteration    21 | Cost: 7.868916e-01Iteration    22 | Cost: 6.977318e-01Iteration    23 | Cost: 6.630252e-01Iteration    24 | Cost: 6.456512e-01Iteration    25 | Cost: 6.079224e-01Iteration    26 | Cost: 5.884539e-01Iteration    27 | Cost: 5.749443e-01Iteration    28 | Cost: 5.332743e-01Iteration    29 | Cost: 5.183094e-01Iteration    30 | Cost: 4.987814e-01Iteration    31 | Cost: 4.936111e-01Iteration    32 | Cost: 4.864140e-01Iteration    33 | Cost: 4.788594e-01Iteration    34 | Cost: 4.742818e-01Iteration    35 | Cost: 4.619739e-01
+maxiter_val =  35
+lambda_val =  2
+Iteration     1 | Cost: 3.302168e+00Iteration     2 | Cost: 3.263819e+00Iteration     3 | Cost: 3.210529e+00Iteration     4 | Cost: 3.129005e+00Iteration     5 | Cost: 2.925175e+00Iteration     6 | Cost: 2.468323e+00Iteration     7 | Cost: 2.004478e+00Iteration     8 | Cost: 1.915890e+00Iteration     9 | Cost: 1.771772e+00Iteration    10 | Cost: 1.657892e+00Iteration    11 | Cost: 1.546522e+00Iteration    12 | Cost: 1.399457e+00Iteration    13 | Cost: 1.317919e+00Iteration    14 | Cost: 1.274921e+00Iteration    15 | Cost: 1.179499e+00Iteration    16 | Cost: 1.099018e+00Iteration    17 | Cost: 1.014403e+00Iteration    18 | Cost: 9.098277e-01Iteration    19 | Cost: 8.741945e-01Iteration    20 | Cost: 8.538013e-01Iteration    21 | Cost: 8.256509e-01Iteration    22 | Cost: 8.153037e-01Iteration    23 | Cost: 8.139105e-01Iteration    24 | Cost: 7.948528e-01Iteration    25 | Cost: 7.863719e-01Iteration    26 | Cost: 7.752698e-01Iteration    27 | Cost: 7.579805e-01Iteration    28 | Cost: 7.382602e-01Iteration    29 | Cost: 7.142692e-01Iteration    30 | Cost: 7.083881e-01Iteration    31 | Cost: 7.051578e-01Iteration    32 | Cost: 7.025894e-01Iteration    33 | Cost: 6.935332e-01Iteration    34 | Cost: 6.894344e-01Iteration    35 | Cost: 6.853805e-01
+maxiter_val =  35
+lambda_val =  4
+Iteration     1 | Cost: 3.312741e+00Iteration     2 | Cost: 3.274262e+00Iteration     3 | Cost: 3.221372e+00Iteration     4 | Cost: 3.141708e+00Iteration     5 | Cost: 2.941157e+00Iteration     6 | Cost: 2.496271e+00Iteration     7 | Cost: 2.048651e+00Iteration     8 | Cost: 1.960829e+00Iteration     9 | Cost: 1.819352e+00Iteration    10 | Cost: 1.704428e+00Iteration    11 | Cost: 1.597480e+00Iteration    12 | Cost: 1.458378e+00Iteration    13 | Cost: 1.379058e+00Iteration    14 | Cost: 1.339405e+00Iteration    15 | Cost: 1.286174e+00Iteration    16 | Cost: 1.251233e+00Iteration    17 | Cost: 1.224989e+00Iteration    18 | Cost: 1.147496e+00Iteration    19 | Cost: 1.072854e+00Iteration    20 | Cost: 1.024312e+00Iteration    21 | Cost: 9.649734e-01Iteration    22 | Cost: 9.495212e-01Iteration    23 | Cost: 9.368938e-01Iteration    24 | Cost: 9.138432e-01Iteration    25 | Cost: 8.998764e-01Iteration    26 | Cost: 8.947768e-01Iteration    27 | Cost: 8.884441e-01Iteration    28 | Cost: 8.844537e-01Iteration    29 | Cost: 8.786065e-01Iteration    30 | Cost: 8.648375e-01Iteration    31 | Cost: 8.516314e-01Iteration    32 | Cost: 8.375687e-01Iteration    33 | Cost: 8.216001e-01Iteration    34 | Cost: 8.144012e-01Iteration    35 | Cost: 8.134929e-01
+maxiter_val =  35
+lambda_val =  6
+Iteration     1 | Cost: 3.323302e+00Iteration     2 | Cost: 3.284684e+00Iteration     3 | Cost: 3.232039e+00Iteration     4 | Cost: 3.154231e+00Iteration     5 | Cost: 2.955078e+00Iteration     6 | Cost: 2.520156e+00Iteration     7 | Cost: 2.087429e+00Iteration     8 | Cost: 1.999502e+00Iteration     9 | Cost: 1.860028e+00Iteration    10 | Cost: 1.735698e+00Iteration    11 | Cost: 1.670381e+00Iteration    12 | Cost: 1.631733e+00Iteration    13 | Cost: 1.465731e+00Iteration    14 | Cost: 1.424129e+00Iteration    15 | Cost: 1.406929e+00Iteration    16 | Cost: 1.337458e+00Iteration    17 | Cost: 1.280498e+00Iteration    18 | Cost: 1.204489e+00Iteration    19 | Cost: 1.157821e+00Iteration    20 | Cost: 1.126356e+00Iteration    21 | Cost: 1.088352e+00Iteration    22 | Cost: 1.074095e+00Iteration    23 | Cost: 1.066471e+00Iteration    24 | Cost: 1.039583e+00Iteration    25 | Cost: 1.023822e+00Iteration    26 | Cost: 1.014650e+00Iteration    27 | Cost: 9.876266e-01Iteration    28 | Cost: 9.749411e-01Iteration    29 | Cost: 9.690467e-01Iteration    30 | Cost: 9.490751e-01Iteration    31 | Cost: 9.412849e-01Iteration    32 | Cost: 9.369329e-01Iteration    33 | Cost: 9.321205e-01Iteration    34 | Cost: 9.273622e-01Iteration    35 | Cost: 9.139509e-01
+maxiter_val =  35
+lambda_val =  8
+Iteration     1 | Cost: 3.333853e+00Iteration     2 | Cost: 3.295084e+00Iteration     3 | Cost: 3.242531e+00Iteration     4 | Cost: 3.166551e+00Iteration     5 | Cost: 2.967184e+00Iteration     6 | Cost: 2.541549e+00Iteration     7 | Cost: 2.126940e+00Iteration     8 | Cost: 2.039002e+00Iteration     9 | Cost: 1.901589e+00Iteration    10 | Cost: 1.771866e+00Iteration    11 | Cost: 1.708048e+00Iteration    12 | Cost: 1.560486e+00Iteration    13 | Cost: 1.472426e+00Iteration    14 | Cost: 1.438231e+00Iteration    15 | Cost: 1.364725e+00Iteration    16 | Cost: 1.327600e+00Iteration    17 | Cost: 1.282332e+00Iteration    18 | Cost: 1.258107e+00Iteration    19 | Cost: 1.230131e+00Iteration    20 | Cost: 1.197051e+00Iteration    21 | Cost: 1.181717e+00Iteration    22 | Cost: 1.178464e+00Iteration    23 | Cost: 1.153557e+00Iteration    24 | Cost: 1.141268e+00Iteration    25 | Cost: 1.130597e+00Iteration    26 | Cost: 1.112113e+00Iteration    27 | Cost: 1.098758e+00Iteration    28 | Cost: 1.090897e+00Iteration    29 | Cost: 1.080055e+00Iteration    30 | Cost: 1.063134e+00Iteration    31 | Cost: 1.051560e+00Iteration    32 | Cost: 1.034446e+00Iteration    33 | Cost: 1.028344e+00Iteration    34 | Cost: 1.026089e+00Iteration    35 | Cost: 1.022906e+00
+maxiter_val =  35
+lambda_val =  10
+Iteration     1 | Cost: 3.344392e+00Iteration     2 | Cost: 3.305462e+00Iteration     3 | Cost: 3.252853e+00Iteration     4 | Cost: 3.195402e+00Iteration     5 | Cost: 2.643439e+00Iteration     6 | Cost: 2.303994e+00Iteration     7 | Cost: 2.059731e+00Iteration     8 | Cost: 1.934863e+00Iteration     9 | Cost: 1.798180e+00Iteration    10 | Cost: 1.749772e+00Iteration    11 | Cost: 1.631326e+00Iteration    12 | Cost: 1.572745e+00Iteration    13 | Cost: 1.543070e+00Iteration    14 | Cost: 1.519946e+00Iteration    15 | Cost: 1.441173e+00Iteration    16 | Cost: 1.420230e+00Iteration    17 | Cost: 1.398835e+00Iteration    18 | Cost: 1.327883e+00Iteration    19 | Cost: 1.294655e+00Iteration    20 | Cost: 1.259019e+00Iteration    21 | Cost: 1.234476e+00Iteration    22 | Cost: 1.212506e+00Iteration    23 | Cost: 1.191671e+00Iteration    24 | Cost: 1.181686e+00Iteration    25 | Cost: 1.171109e+00Iteration    26 | Cost: 1.157577e+00Iteration    27 | Cost: 1.151763e+00Iteration    28 | Cost: 1.144329e+00Iteration    29 | Cost: 1.137466e+00Iteration    30 | Cost: 1.131398e+00Iteration    31 | Cost: 1.124288e+00Iteration    32 | Cost: 1.111771e+00Iteration    33 | Cost: 1.101676e+00Iteration    34 | Cost: 1.092775e+00Iteration    35 | Cost: 1.082710e+00
+maxiter_val =  45
+lambda_val = 0
+Iteration     1 | Cost: 3.291585e+00Iteration     2 | Cost: 3.253355e+00Iteration     3 | Cost: 3.199505e+00Iteration     4 | Cost: 3.116147e+00Iteration     5 | Cost: 2.906841e+00Iteration     6 | Cost: 2.435283e+00Iteration     7 | Cost: 1.953759e+00Iteration     8 | Cost: 1.862595e+00Iteration     9 | Cost: 1.714679e+00Iteration    10 | Cost: 1.588548e+00Iteration    11 | Cost: 1.508882e+00Iteration    12 | Cost: 1.451202e+00Iteration    13 | Cost: 1.148258e+00Iteration    14 | Cost: 1.061134e+00Iteration    15 | Cost: 1.006639e+00Iteration    16 | Cost: 9.345848e-01Iteration    17 | Cost: 8.967454e-01Iteration    18 | Cost: 8.809491e-01Iteration    19 | Cost: 8.365269e-01Iteration    20 | Cost: 8.106287e-01Iteration    21 | Cost: 7.868916e-01Iteration    22 | Cost: 6.977318e-01Iteration    23 | Cost: 6.630252e-01Iteration    24 | Cost: 6.456512e-01Iteration    25 | Cost: 6.079224e-01Iteration    26 | Cost: 5.884539e-01Iteration    27 | Cost: 5.749443e-01Iteration    28 | Cost: 5.332743e-01Iteration    29 | Cost: 5.183094e-01Iteration    30 | Cost: 4.987814e-01Iteration    31 | Cost: 4.936111e-01Iteration    32 | Cost: 4.864140e-01Iteration    33 | Cost: 4.788594e-01Iteration    34 | Cost: 4.742818e-01Iteration    35 | Cost: 4.619739e-01Iteration    36 | Cost: 4.436642e-01Iteration    37 | Cost: 4.352376e-01Iteration    38 | Cost: 4.328100e-01Iteration    39 | Cost: 4.293968e-01Iteration    40 | Cost: 4.260081e-01Iteration    41 | Cost: 4.206797e-01Iteration    42 | Cost: 4.128479e-01Iteration    43 | Cost: 4.005009e-01Iteration    44 | Cost: 3.876222e-01Iteration    45 | Cost: 3.798882e-01
+maxiter_val =  45
+lambda_val =  2
+Iteration     1 | Cost: 3.302168e+00Iteration     2 | Cost: 3.263819e+00Iteration     3 | Cost: 3.210529e+00Iteration     4 | Cost: 3.129005e+00Iteration     5 | Cost: 2.925175e+00Iteration     6 | Cost: 2.468323e+00Iteration     7 | Cost: 2.004478e+00Iteration     8 | Cost: 1.915890e+00Iteration     9 | Cost: 1.771772e+00Iteration    10 | Cost: 1.657892e+00Iteration    11 | Cost: 1.546522e+00Iteration    12 | Cost: 1.399457e+00Iteration    13 | Cost: 1.317919e+00Iteration    14 | Cost: 1.274921e+00Iteration    15 | Cost: 1.179499e+00Iteration    16 | Cost: 1.099018e+00Iteration    17 | Cost: 1.014403e+00Iteration    18 | Cost: 9.098277e-01Iteration    19 | Cost: 8.741945e-01Iteration    20 | Cost: 8.538013e-01Iteration    21 | Cost: 8.256509e-01Iteration    22 | Cost: 8.153037e-01Iteration    23 | Cost: 8.139105e-01Iteration    24 | Cost: 7.948528e-01Iteration    25 | Cost: 7.863719e-01Iteration    26 | Cost: 7.752698e-01Iteration    27 | Cost: 7.579805e-01Iteration    28 | Cost: 7.382602e-01Iteration    29 | Cost: 7.142692e-01Iteration    30 | Cost: 7.083881e-01Iteration    31 | Cost: 7.051578e-01Iteration    32 | Cost: 7.025894e-01Iteration    33 | Cost: 6.935332e-01Iteration    34 | Cost: 6.894344e-01Iteration    35 | Cost: 6.853805e-01Iteration    36 | Cost: 6.707343e-01Iteration    37 | Cost: 6.595676e-01Iteration    38 | Cost: 6.473844e-01Iteration    39 | Cost: 6.155172e-01Iteration    40 | Cost: 6.083365e-01Iteration    41 | Cost: 6.007500e-01Iteration    42 | Cost: 5.953260e-01Iteration    43 | Cost: 5.928707e-01Iteration    44 | Cost: 5.892617e-01Iteration    45 | Cost: 5.868226e-01
+maxiter_val =  45
+lambda_val =  4
+Iteration     1 | Cost: 3.312741e+00Iteration     2 | Cost: 3.274262e+00Iteration     3 | Cost: 3.221372e+00Iteration     4 | Cost: 3.141708e+00Iteration     5 | Cost: 2.941157e+00Iteration     6 | Cost: 2.496271e+00Iteration     7 | Cost: 2.048651e+00Iteration     8 | Cost: 1.960829e+00Iteration     9 | Cost: 1.819352e+00Iteration    10 | Cost: 1.704428e+00Iteration    11 | Cost: 1.597480e+00Iteration    12 | Cost: 1.458378e+00Iteration    13 | Cost: 1.379058e+00Iteration    14 | Cost: 1.339405e+00Iteration    15 | Cost: 1.286174e+00Iteration    16 | Cost: 1.251233e+00Iteration    17 | Cost: 1.224989e+00Iteration    18 | Cost: 1.147496e+00Iteration    19 | Cost: 1.072854e+00Iteration    20 | Cost: 1.024312e+00Iteration    21 | Cost: 9.649734e-01Iteration    22 | Cost: 9.495212e-01Iteration    23 | Cost: 9.368938e-01Iteration    24 | Cost: 9.138432e-01Iteration    25 | Cost: 8.998764e-01Iteration    26 | Cost: 8.947768e-01Iteration    27 | Cost: 8.884441e-01Iteration    28 | Cost: 8.844537e-01Iteration    29 | Cost: 8.786065e-01Iteration    30 | Cost: 8.648375e-01Iteration    31 | Cost: 8.516314e-01Iteration    32 | Cost: 8.375687e-01Iteration    33 | Cost: 8.216001e-01Iteration    34 | Cost: 8.144012e-01Iteration    35 | Cost: 8.134929e-01Iteration    36 | Cost: 8.007344e-01Iteration    37 | Cost: 7.977565e-01Iteration    38 | Cost: 7.954885e-01Iteration    39 | Cost: 7.912496e-01Iteration    40 | Cost: 7.867976e-01Iteration    41 | Cost: 7.854144e-01Iteration    42 | Cost: 7.845827e-01Iteration    43 | Cost: 7.809901e-01Iteration    44 | Cost: 7.773128e-01Iteration    45 | Cost: 7.739417e-01
+maxiter_val =  45
+lambda_val =  6
+Iteration     1 | Cost: 3.323302e+00Iteration     2 | Cost: 3.284684e+00Iteration     3 | Cost: 3.232039e+00Iteration     4 | Cost: 3.154231e+00Iteration     5 | Cost: 2.955078e+00Iteration     6 | Cost: 2.520156e+00Iteration     7 | Cost: 2.087429e+00Iteration     8 | Cost: 1.999502e+00Iteration     9 | Cost: 1.860028e+00Iteration    10 | Cost: 1.735698e+00Iteration    11 | Cost: 1.670381e+00Iteration    12 | Cost: 1.631733e+00Iteration    13 | Cost: 1.465731e+00Iteration    14 | Cost: 1.424129e+00Iteration    15 | Cost: 1.406929e+00Iteration    16 | Cost: 1.337458e+00Iteration    17 | Cost: 1.280498e+00Iteration    18 | Cost: 1.204489e+00Iteration    19 | Cost: 1.157821e+00Iteration    20 | Cost: 1.126356e+00Iteration    21 | Cost: 1.088352e+00Iteration    22 | Cost: 1.074095e+00Iteration    23 | Cost: 1.066471e+00Iteration    24 | Cost: 1.039583e+00Iteration    25 | Cost: 1.023822e+00Iteration    26 | Cost: 1.014650e+00Iteration    27 | Cost: 9.876266e-01Iteration    28 | Cost: 9.749411e-01Iteration    29 | Cost: 9.690467e-01Iteration    30 | Cost: 9.490751e-01Iteration    31 | Cost: 9.412849e-01Iteration    32 | Cost: 9.369329e-01Iteration    33 | Cost: 9.321205e-01Iteration    34 | Cost: 9.273622e-01Iteration    35 | Cost: 9.139509e-01Iteration    36 | Cost: 9.084680e-01Iteration    37 | Cost: 9.014337e-01Iteration    38 | Cost: 8.935587e-01Iteration    39 | Cost: 8.906975e-01Iteration    40 | Cost: 8.901564e-01Iteration    41 | Cost: 8.843535e-01Iteration    42 | Cost: 8.827776e-01Iteration    43 | Cost: 8.817970e-01Iteration    44 | Cost: 8.796209e-01Iteration    45 | Cost: 8.767690e-01
+maxiter_val =  45
+lambda_val =  8
+Iteration     1 | Cost: 3.333853e+00Iteration     2 | Cost: 3.295084e+00Iteration     3 | Cost: 3.242531e+00Iteration     4 | Cost: 3.166551e+00Iteration     5 | Cost: 2.967184e+00Iteration     6 | Cost: 2.541549e+00Iteration     7 | Cost: 2.126940e+00Iteration     8 | Cost: 2.039002e+00Iteration     9 | Cost: 1.901589e+00Iteration    10 | Cost: 1.771866e+00Iteration    11 | Cost: 1.708048e+00Iteration    12 | Cost: 1.560486e+00Iteration    13 | Cost: 1.472426e+00Iteration    14 | Cost: 1.438231e+00Iteration    15 | Cost: 1.364725e+00Iteration    16 | Cost: 1.327600e+00Iteration    17 | Cost: 1.282332e+00Iteration    18 | Cost: 1.258107e+00Iteration    19 | Cost: 1.230131e+00Iteration    20 | Cost: 1.197051e+00Iteration    21 | Cost: 1.181717e+00Iteration    22 | Cost: 1.178464e+00Iteration    23 | Cost: 1.153557e+00Iteration    24 | Cost: 1.141268e+00Iteration    25 | Cost: 1.130597e+00Iteration    26 | Cost: 1.112113e+00Iteration    27 | Cost: 1.098758e+00Iteration    28 | Cost: 1.090897e+00Iteration    29 | Cost: 1.080055e+00Iteration    30 | Cost: 1.063134e+00Iteration    31 | Cost: 1.051560e+00Iteration    32 | Cost: 1.034446e+00Iteration    33 | Cost: 1.028344e+00Iteration    34 | Cost: 1.026089e+00Iteration    35 | Cost: 1.022906e+00Iteration    36 | Cost: 1.017983e+00Iteration    37 | Cost: 1.012401e+00Iteration    38 | Cost: 1.005008e+00Iteration    39 | Cost: 1.001607e+00Iteration    40 | Cost: 1.000534e+00Iteration    41 | Cost: 9.980995e-01Iteration    42 | Cost: 9.968285e-01Iteration    43 | Cost: 9.950135e-01Iteration    44 | Cost: 9.922137e-01Iteration    45 | Cost: 9.887704e-01
+maxiter_val =  45
+lambda_val =  10
+Iteration     1 | Cost: 3.344392e+00Iteration     2 | Cost: 3.305462e+00Iteration     3 | Cost: 3.252853e+00Iteration     4 | Cost: 3.195402e+00Iteration     5 | Cost: 2.643439e+00Iteration     6 | Cost: 2.303994e+00Iteration     7 | Cost: 2.059731e+00Iteration     8 | Cost: 1.934863e+00Iteration     9 | Cost: 1.798180e+00Iteration    10 | Cost: 1.749772e+00Iteration    11 | Cost: 1.631326e+00Iteration    12 | Cost: 1.572745e+00Iteration    13 | Cost: 1.543070e+00Iteration    14 | Cost: 1.519946e+00Iteration    15 | Cost: 1.441173e+00Iteration    16 | Cost: 1.420230e+00Iteration    17 | Cost: 1.398835e+00Iteration    18 | Cost: 1.327883e+00Iteration    19 | Cost: 1.294655e+00Iteration    20 | Cost: 1.259019e+00Iteration    21 | Cost: 1.234476e+00Iteration    22 | Cost: 1.212506e+00Iteration    23 | Cost: 1.191671e+00Iteration    24 | Cost: 1.181686e+00Iteration    25 | Cost: 1.171109e+00Iteration    26 | Cost: 1.157577e+00Iteration    27 | Cost: 1.151763e+00Iteration    28 | Cost: 1.144329e+00Iteration    29 | Cost: 1.137466e+00Iteration    30 | Cost: 1.131398e+00Iteration    31 | Cost: 1.124288e+00Iteration    32 | Cost: 1.111771e+00Iteration    33 | Cost: 1.101676e+00Iteration    34 | Cost: 1.092775e+00Iteration    35 | Cost: 1.082710e+00Iteration    36 | Cost: 1.077782e+00Iteration    37 | Cost: 1.074845e+00Iteration    38 | Cost: 1.071196e+00Iteration    39 | Cost: 1.067192e+00Iteration    40 | Cost: 1.065386e+00Iteration    41 | Cost: 1.064927e+00Iteration    42 | Cost: 1.060534e+00Iteration    43 | Cost: 1.059385e+00Iteration    44 | Cost: 1.058269e+00Iteration    45 | Cost: 1.055257e+00
+maxiter_val =  55
+lambda_val = 0
+Iteration     1 | Cost: 3.291585e+00Iteration     2 | Cost: 3.253355e+00Iteration     3 | Cost: 3.199505e+00Iteration     4 | Cost: 3.116147e+00Iteration     5 | Cost: 2.906841e+00Iteration     6 | Cost: 2.435283e+00Iteration     7 | Cost: 1.953759e+00Iteration     8 | Cost: 1.862595e+00Iteration     9 | Cost: 1.714679e+00Iteration    10 | Cost: 1.588548e+00Iteration    11 | Cost: 1.508882e+00Iteration    12 | Cost: 1.451202e+00Iteration    13 | Cost: 1.148258e+00Iteration    14 | Cost: 1.061134e+00Iteration    15 | Cost: 1.006639e+00Iteration    16 | Cost: 9.345848e-01Iteration    17 | Cost: 8.967454e-01Iteration    18 | Cost: 8.809491e-01Iteration    19 | Cost: 8.365269e-01Iteration    20 | Cost: 8.106287e-01Iteration    21 | Cost: 7.868916e-01Iteration    22 | Cost: 6.977318e-01Iteration    23 | Cost: 6.630252e-01Iteration    24 | Cost: 6.456512e-01Iteration    25 | Cost: 6.079224e-01Iteration    26 | Cost: 5.884539e-01Iteration    27 | Cost: 5.749443e-01Iteration    28 | Cost: 5.332743e-01Iteration    29 | Cost: 5.183094e-01Iteration    30 | Cost: 4.987814e-01Iteration    31 | Cost: 4.936111e-01Iteration    32 | Cost: 4.864140e-01Iteration    33 | Cost: 4.788594e-01Iteration    34 | Cost: 4.742818e-01Iteration    35 | Cost: 4.619739e-01Iteration    36 | Cost: 4.436642e-01Iteration    37 | Cost: 4.352376e-01Iteration    38 | Cost: 4.328100e-01Iteration    39 | Cost: 4.293968e-01Iteration    40 | Cost: 4.260081e-01Iteration    41 | Cost: 4.206797e-01Iteration    42 | Cost: 4.128479e-01Iteration    43 | Cost: 4.005009e-01Iteration    44 | Cost: 3.876222e-01Iteration    45 | Cost: 3.798882e-01Iteration    46 | Cost: 3.724060e-01Iteration    47 | Cost: 3.524203e-01Iteration    48 | Cost: 3.462275e-01Iteration    49 | Cost: 3.421914e-01Iteration    50 | Cost: 3.366645e-01Iteration    51 | Cost: 3.345814e-01Iteration    52 | Cost: 3.321317e-01Iteration    53 | Cost: 3.256277e-01Iteration    54 | Cost: 3.173108e-01Iteration    55 | Cost: 3.084687e-01
+maxiter_val =  55
+lambda_val =  2
+Iteration     1 | Cost: 3.302168e+00Iteration     2 | Cost: 3.263819e+00Iteration     3 | Cost: 3.210529e+00Iteration     4 | Cost: 3.129005e+00Iteration     5 | Cost: 2.925175e+00Iteration     6 | Cost: 2.468323e+00Iteration     7 | Cost: 2.004478e+00Iteration     8 | Cost: 1.915890e+00Iteration     9 | Cost: 1.771772e+00Iteration    10 | Cost: 1.657892e+00Iteration    11 | Cost: 1.546522e+00Iteration    12 | Cost: 1.399457e+00Iteration    13 | Cost: 1.317919e+00Iteration    14 | Cost: 1.274921e+00Iteration    15 | Cost: 1.179499e+00Iteration    16 | Cost: 1.099018e+00Iteration    17 | Cost: 1.014403e+00Iteration    18 | Cost: 9.098277e-01Iteration    19 | Cost: 8.741945e-01Iteration    20 | Cost: 8.538013e-01Iteration    21 | Cost: 8.256509e-01Iteration    22 | Cost: 8.153037e-01Iteration    23 | Cost: 8.139105e-01Iteration    24 | Cost: 7.948528e-01Iteration    25 | Cost: 7.863719e-01Iteration    26 | Cost: 7.752698e-01Iteration    27 | Cost: 7.579805e-01Iteration    28 | Cost: 7.382602e-01Iteration    29 | Cost: 7.142692e-01Iteration    30 | Cost: 7.083881e-01Iteration    31 | Cost: 7.051578e-01Iteration    32 | Cost: 7.025894e-01Iteration    33 | Cost: 6.935332e-01Iteration    34 | Cost: 6.894344e-01Iteration    35 | Cost: 6.853805e-01Iteration    36 | Cost: 6.707343e-01Iteration    37 | Cost: 6.595676e-01Iteration    38 | Cost: 6.473844e-01Iteration    39 | Cost: 6.155172e-01Iteration    40 | Cost: 6.083365e-01Iteration    41 | Cost: 6.007500e-01Iteration    42 | Cost: 5.953260e-01Iteration    43 | Cost: 5.928707e-01Iteration    44 | Cost: 5.892617e-01Iteration    45 | Cost: 5.868226e-01Iteration    46 | Cost: 5.852852e-01Iteration    47 | Cost: 5.837973e-01Iteration    48 | Cost: 5.815298e-01Iteration    49 | Cost: 5.793544e-01Iteration    50 | Cost: 5.780919e-01Iteration    51 | Cost: 5.771994e-01Iteration    52 | Cost: 5.752075e-01Iteration    53 | Cost: 5.728852e-01Iteration    54 | Cost: 5.712644e-01Iteration    55 | Cost: 5.699324e-01
+maxiter_val =  55
+lambda_val =  4
+Iteration     1 | Cost: 3.312741e+00Iteration     2 | Cost: 3.274262e+00Iteration     3 | Cost: 3.221372e+00Iteration     4 | Cost: 3.141708e+00Iteration     5 | Cost: 2.941157e+00Iteration     6 | Cost: 2.496271e+00Iteration     7 | Cost: 2.048651e+00Iteration     8 | Cost: 1.960829e+00Iteration     9 | Cost: 1.819352e+00Iteration    10 | Cost: 1.704428e+00Iteration    11 | Cost: 1.597480e+00Iteration    12 | Cost: 1.458378e+00Iteration    13 | Cost: 1.379058e+00Iteration    14 | Cost: 1.339405e+00Iteration    15 | Cost: 1.286174e+00Iteration    16 | Cost: 1.251233e+00Iteration    17 | Cost: 1.224989e+00Iteration    18 | Cost: 1.147496e+00Iteration    19 | Cost: 1.072854e+00Iteration    20 | Cost: 1.024312e+00Iteration    21 | Cost: 9.649734e-01Iteration    22 | Cost: 9.495212e-01Iteration    23 | Cost: 9.368938e-01Iteration    24 | Cost: 9.138432e-01Iteration    25 | Cost: 8.998764e-01Iteration    26 | Cost: 8.947768e-01Iteration    27 | Cost: 8.884441e-01Iteration    28 | Cost: 8.844537e-01Iteration    29 | Cost: 8.786065e-01Iteration    30 | Cost: 8.648375e-01Iteration    31 | Cost: 8.516314e-01Iteration    32 | Cost: 8.375687e-01Iteration    33 | Cost: 8.216001e-01Iteration    34 | Cost: 8.144012e-01Iteration    35 | Cost: 8.134929e-01Iteration    36 | Cost: 8.007344e-01Iteration    37 | Cost: 7.977565e-01Iteration    38 | Cost: 7.954885e-01Iteration    39 | Cost: 7.912496e-01Iteration    40 | Cost: 7.867976e-01Iteration    41 | Cost: 7.854144e-01Iteration    42 | Cost: 7.845827e-01Iteration    43 | Cost: 7.809901e-01Iteration    44 | Cost: 7.773128e-01Iteration    45 | Cost: 7.739417e-01Iteration    46 | Cost: 7.679070e-01Iteration    47 | Cost: 7.625543e-01Iteration    48 | Cost: 7.559056e-01Iteration    49 | Cost: 7.408869e-01Iteration    50 | Cost: 7.369841e-01Iteration    51 | Cost: 7.352508e-01Iteration    52 | Cost: 7.333498e-01Iteration    53 | Cost: 7.316986e-01Iteration    54 | Cost: 7.303796e-01Iteration    55 | Cost: 7.281751e-01
+maxiter_val =  55
+lambda_val =  6
+Iteration     1 | Cost: 3.323302e+00Iteration     2 | Cost: 3.284684e+00Iteration     3 | Cost: 3.232039e+00Iteration     4 | Cost: 3.154231e+00Iteration     5 | Cost: 2.955078e+00Iteration     6 | Cost: 2.520156e+00Iteration     7 | Cost: 2.087429e+00Iteration     8 | Cost: 1.999502e+00Iteration     9 | Cost: 1.860028e+00Iteration    10 | Cost: 1.735698e+00Iteration    11 | Cost: 1.670381e+00Iteration    12 | Cost: 1.631733e+00Iteration    13 | Cost: 1.465731e+00Iteration    14 | Cost: 1.424129e+00Iteration    15 | Cost: 1.406929e+00Iteration    16 | Cost: 1.337458e+00Iteration    17 | Cost: 1.280498e+00Iteration    18 | Cost: 1.204489e+00Iteration    19 | Cost: 1.157821e+00Iteration    20 | Cost: 1.126356e+00Iteration    21 | Cost: 1.088352e+00Iteration    22 | Cost: 1.074095e+00Iteration    23 | Cost: 1.066471e+00Iteration    24 | Cost: 1.039583e+00Iteration    25 | Cost: 1.023822e+00Iteration    26 | Cost: 1.014650e+00Iteration    27 | Cost: 9.876266e-01Iteration    28 | Cost: 9.749411e-01Iteration    29 | Cost: 9.690467e-01Iteration    30 | Cost: 9.490751e-01Iteration    31 | Cost: 9.412849e-01Iteration    32 | Cost: 9.369329e-01Iteration    33 | Cost: 9.321205e-01Iteration    34 | Cost: 9.273622e-01Iteration    35 | Cost: 9.139509e-01Iteration    36 | Cost: 9.084680e-01Iteration    37 | Cost: 9.014337e-01Iteration    38 | Cost: 8.935587e-01Iteration    39 | Cost: 8.906975e-01Iteration    40 | Cost: 8.901564e-01Iteration    41 | Cost: 8.843535e-01Iteration    42 | Cost: 8.827776e-01Iteration    43 | Cost: 8.817970e-01Iteration    44 | Cost: 8.796209e-01Iteration    45 | Cost: 8.767690e-01Iteration    46 | Cost: 8.742800e-01Iteration    47 | Cost: 8.716984e-01Iteration    48 | Cost: 8.703010e-01Iteration    49 | Cost: 8.655520e-01Iteration    50 | Cost: 8.551299e-01Iteration    51 | Cost: 8.501491e-01Iteration    52 | Cost: 8.472388e-01Iteration    53 | Cost: 8.458779e-01Iteration    54 | Cost: 8.426224e-01Iteration    55 | Cost: 8.418328e-01
+maxiter_val =  55
+lambda_val =  8
+Iteration     1 | Cost: 3.333853e+00Iteration     2 | Cost: 3.295084e+00Iteration     3 | Cost: 3.242531e+00Iteration     4 | Cost: 3.166551e+00Iteration     5 | Cost: 2.967184e+00Iteration     6 | Cost: 2.541549e+00Iteration     7 | Cost: 2.126940e+00Iteration     8 | Cost: 2.039002e+00Iteration     9 | Cost: 1.901589e+00Iteration    10 | Cost: 1.771866e+00Iteration    11 | Cost: 1.708048e+00Iteration    12 | Cost: 1.560486e+00Iteration    13 | Cost: 1.472426e+00Iteration    14 | Cost: 1.438231e+00Iteration    15 | Cost: 1.364725e+00Iteration    16 | Cost: 1.327600e+00Iteration    17 | Cost: 1.282332e+00Iteration    18 | Cost: 1.258107e+00Iteration    19 | Cost: 1.230131e+00Iteration    20 | Cost: 1.197051e+00Iteration    21 | Cost: 1.181717e+00Iteration    22 | Cost: 1.178464e+00Iteration    23 | Cost: 1.153557e+00Iteration    24 | Cost: 1.141268e+00Iteration    25 | Cost: 1.130597e+00Iteration    26 | Cost: 1.112113e+00Iteration    27 | Cost: 1.098758e+00Iteration    28 | Cost: 1.090897e+00Iteration    29 | Cost: 1.080055e+00Iteration    30 | Cost: 1.063134e+00Iteration    31 | Cost: 1.051560e+00Iteration    32 | Cost: 1.034446e+00Iteration    33 | Cost: 1.028344e+00Iteration    34 | Cost: 1.026089e+00Iteration    35 | Cost: 1.022906e+00Iteration    36 | Cost: 1.017983e+00Iteration    37 | Cost: 1.012401e+00Iteration    38 | Cost: 1.005008e+00Iteration    39 | Cost: 1.001607e+00Iteration    40 | Cost: 1.000534e+00Iteration    41 | Cost: 9.980995e-01Iteration    42 | Cost: 9.968285e-01Iteration    43 | Cost: 9.950135e-01Iteration    44 | Cost: 9.922137e-01Iteration    45 | Cost: 9.887704e-01Iteration    46 | Cost: 9.849240e-01Iteration    47 | Cost: 9.824979e-01Iteration    48 | Cost: 9.813456e-01Iteration    49 | Cost: 9.781366e-01Iteration    50 | Cost: 9.764510e-01Iteration    51 | Cost: 9.747233e-01Iteration    52 | Cost: 9.708551e-01Iteration    53 | Cost: 9.670646e-01Iteration    54 | Cost: 9.569133e-01Iteration    55 | Cost: 9.535651e-01
+maxiter_val =  55
+lambda_val =  10
+Iteration     1 | Cost: 3.344392e+00Iteration     2 | Cost: 3.305462e+00Iteration     3 | Cost: 3.252853e+00Iteration     4 | Cost: 3.195402e+00Iteration     5 | Cost: 2.643439e+00Iteration     6 | Cost: 2.303994e+00Iteration     7 | Cost: 2.059731e+00Iteration     8 | Cost: 1.934863e+00Iteration     9 | Cost: 1.798180e+00Iteration    10 | Cost: 1.749772e+00Iteration    11 | Cost: 1.631326e+00Iteration    12 | Cost: 1.572745e+00Iteration    13 | Cost: 1.543070e+00Iteration    14 | Cost: 1.519946e+00Iteration    15 | Cost: 1.441173e+00Iteration    16 | Cost: 1.420230e+00Iteration    17 | Cost: 1.398835e+00Iteration    18 | Cost: 1.327883e+00Iteration    19 | Cost: 1.294655e+00Iteration    20 | Cost: 1.259019e+00Iteration    21 | Cost: 1.234476e+00Iteration    22 | Cost: 1.212506e+00Iteration    23 | Cost: 1.191671e+00Iteration    24 | Cost: 1.181686e+00Iteration    25 | Cost: 1.171109e+00Iteration    26 | Cost: 1.157577e+00Iteration    27 | Cost: 1.151763e+00Iteration    28 | Cost: 1.144329e+00Iteration    29 | Cost: 1.137466e+00Iteration    30 | Cost: 1.131398e+00Iteration    31 | Cost: 1.124288e+00Iteration    32 | Cost: 1.111771e+00Iteration    33 | Cost: 1.101676e+00Iteration    34 | Cost: 1.092775e+00Iteration    35 | Cost: 1.082710e+00Iteration    36 | Cost: 1.077782e+00Iteration    37 | Cost: 1.074845e+00Iteration    38 | Cost: 1.071196e+00Iteration    39 | Cost: 1.067192e+00Iteration    40 | Cost: 1.065386e+00Iteration    41 | Cost: 1.064927e+00Iteration    42 | Cost: 1.060534e+00Iteration    43 | Cost: 1.059385e+00Iteration    44 | Cost: 1.058269e+00Iteration    45 | Cost: 1.055257e+00Iteration    46 | Cost: 1.052543e+00Iteration    47 | Cost: 1.050549e+00Iteration    48 | Cost: 1.048646e+00Iteration    49 | Cost: 1.046617e+00Iteration    50 | Cost: 1.044740e+00Iteration    51 | Cost: 1.043453e+00Iteration    52 | Cost: 1.041830e+00Iteration    53 | Cost: 1.040617e+00Iteration    54 | Cost: 1.039141e+00Iteration    55 | Cost: 1.037425e+00
+cost surface data saved
+Program paused. Press enter to continue.
+
+Visualizing Neural Network... 
+
+Program paused. Press enter to continue.
+
+Training Set Accuracy: 93.340000

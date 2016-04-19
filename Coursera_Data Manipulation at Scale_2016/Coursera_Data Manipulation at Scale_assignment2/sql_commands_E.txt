@@ -1,0 +1,7 @@
+ATTACH DATABASE 'reuters.db' as 'reuters';
+SELECT count(*) FROM (
+SELECT docid
+ FROM Frequency
+ GROUP BY docid
+ HAVING count(docid) > 300
+) x;

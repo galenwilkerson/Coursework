@@ -1,0 +1,15 @@
+ATTACH DATABASE 'reuters.db' as 'reuters';
+SELECT count(*) FROM (
+SELECT docid
+  FROM Frequency
+  WHERE (term = 'law') 
+
+UNION
+
+SELECT docid
+  FROM Frequency
+  WHERE (term = 'legal')
+
+) x
+;
+

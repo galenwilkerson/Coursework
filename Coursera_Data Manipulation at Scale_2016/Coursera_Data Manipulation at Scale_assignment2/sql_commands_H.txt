@@ -1,0 +1,32 @@
+ATTACH DATABASE 'reuters.db' as 'reuters';
+/*
+SELECT Frequency.ROWID, Frequency.ROWID, SUM(count*count)
+FROM Frequency, Frequency
+WHERE rowid = rowid
+GROUP BY Frequency.rowid, Frequency.rowid
+;
+*/
+
+/*
+SELECT rowid
+	FROM Frequency
+	WHERE count > 10 and term like "%hi%";
+*/
+
+
+/* want to do "matrix multiplication" of Frequency vector by frequency vector*/
+
+/*
+SELECT a.row_num as row_num, b.col_num as col_num, SUM(a.value*b.value) as value
+FROM a, b
+WHERE a.col_num = b.row_num
+GROUP BY a.row_num, b.col_num)
+*/
+
+SELECT value FROM (
+SELECT Frequency.docid AS docid1, Frequency3.docid AS docid2, SUM(Frequency.count * Frequency3.count) as value
+FROM Frequency, Frequency3
+WHERE Frequency.term = Frequency3.term
+GROUP BY Frequency.docid, Frequency3.docid
+)WHERE docid1 = "10080_txt_crude" and docid2 = "17035_txt_earn"
+;

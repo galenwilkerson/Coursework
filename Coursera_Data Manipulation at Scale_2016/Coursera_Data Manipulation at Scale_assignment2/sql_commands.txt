@@ -1,0 +1,9 @@
+ATTACH DATABASE 'reuters.db' as 'reuters';
+.databases
+.fullschema
+.tables
+--SELECT * FROM Frequency;
+--.mode csv
+--.headers on 
+--.out file.dmp
+--SELECT * FROM Frequency; 
